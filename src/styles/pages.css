@@ -1,0 +1,428 @@
+.page-heading {
+  margin-bottom: 2rem;
+}
+
+.catalog-tools {
+  display: grid;
+  grid-template-columns: minmax(18rem, 1fr) 14rem auto;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.search-field input,
+.sort-field select,
+.filters-panel select,
+.registration-form input,
+.registration-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  padding: 0.95rem 1rem;
+  color: #182238;
+  background: #fff;
+}
+
+.category-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  border-radius: 2rem;
+  padding: 0.65rem 1rem;
+  color: #182238;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.chip.is-active {
+  border-color: var(--primary);
+  color: #fff;
+  background: var(--primary);
+}
+
+.result-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.catalog-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 17rem;
+  gap: 2rem;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.event-card {
+  position: relative;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 1.35rem;
+  padding: 1.35rem;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.event-card__visual {
+  display: flex;
+  height: 7.2rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  color: var(--primary);
+  background: #eef2ff;
+  font-size: 3rem;
+}
+
+.event-card h2 {
+  margin: 0.65rem 0 0.25rem;
+  overflow-wrap: anywhere;
+  font-size: 1.15rem;
+}
+
+.event-card h2 a {
+  color: #182238;
+}
+
+.event-card p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.event-card strong {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--success);
+  text-align: right;
+}
+
+.favorite-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: grid;
+  width: 2.7rem;
+  height: 2.7rem;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: #63718a;
+  background: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.favorite-button.is-active {
+  color: #df4545;
+}
+
+.filters-panel,
+.event-hero,
+.event-content,
+.booking-card,
+.registration-form,
+.form-help,
+.success-panel {
+  border: 1px solid var(--line);
+  border-radius: 1.35rem;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.filters-panel {
+  align-self: start;
+  padding: 1.5rem;
+}
+
+.filters-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters-panel label,
+.filters-panel fieldset {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0 0 1.5rem;
+  border: 0;
+  padding: 0;
+  font-weight: 650;
+}
+
+.filters-panel fieldset label {
+  display: flex;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.empty-state {
+  border: 1px dashed var(--line);
+  border-radius: 1.25rem;
+  padding: 4rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.pagination button {
+  min-width: 2.8rem;
+  min-height: 2.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.pagination .is-current {
+  border-color: var(--primary);
+  color: #fff;
+  background: var(--primary);
+}
+
+.event-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 29rem;
+  gap: 2rem;
+}
+
+.event-hero {
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.event-icon {
+  display: grid;
+  min-height: 13rem;
+  place-items: center;
+  border-radius: 1.25rem;
+  color: var(--primary);
+  background: #eef2ff;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.event-meta {
+  display: flex;
+  gap: 3rem;
+  margin: 1.5rem 0 0;
+  font-weight: 750;
+}
+
+.event-meta dd {
+  margin: 0;
+}
+
+.event-content {
+  margin-top: 2rem;
+  padding: 0 2rem 2rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 2rem;
+  margin: 0 -2rem 2rem;
+  border-bottom: 1px solid var(--line);
+  padding: 0 2rem;
+}
+
+.tabs button {
+  border: 0;
+  border-bottom: 3px solid transparent;
+  padding: 1.25rem 0;
+  color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+  font-weight: 750;
+}
+
+.tabs button[aria-selected='true'] {
+  border-bottom-color: var(--primary);
+  color: var(--primary);
+}
+
+.event-content li {
+  margin-block: 0.75rem;
+}
+
+.booking-card {
+  align-self: start;
+  padding: 2rem;
+}
+
+.booking-card strong {
+  color: var(--success);
+}
+
+.booking-card .button {
+  margin-top: 1rem;
+}
+
+.booking-card hr {
+  margin-block: 1.5rem;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.booking-card small {
+  color: var(--muted);
+}
+
+.progress {
+  height: 0.75rem;
+  margin-block: 1rem 1.5rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #eef2f7;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--success);
+}
+
+.registration-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(18rem, 0.8fr);
+  gap: 2rem;
+}
+
+.registration-form,
+.form-help,
+.success-panel {
+  padding: 2rem;
+}
+
+.registration-form > fieldset {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.registration-form > fieldset > legend {
+  margin-bottom: 1.25rem;
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.registration-form label,
+.choice-group legend {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.registration-form input,
+.registration-form textarea {
+  margin-bottom: 0.6rem;
+}
+
+.registration-form [aria-invalid='true'] {
+  border-color: var(--danger);
+  box-shadow: 0 0 0 2px rgb(214 61 61 / 12%);
+}
+
+.field-error {
+  min-height: 0.25rem;
+  margin: -0.35rem 0 0.45rem;
+  color: var(--danger);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.choice-group {
+  display: flex;
+  gap: 2rem;
+  margin: 0.5rem 0;
+  border: 0;
+  padding: 0;
+}
+
+.choice-group legend {
+  margin-bottom: 0.65rem;
+}
+
+.choice-group label,
+.agreement {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.choice-group input,
+.agreement input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0;
+}
+
+.agreement {
+  margin-block: 0.8rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form-help {
+  align-self: start;
+}
+
+.form-help li {
+  margin-block: 1rem;
+  padding-left: 0.35rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.success-panel {
+  max-width: 42rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.success-panel > span {
+  display: grid;
+  width: 4rem;
+  height: 4rem;
+  place-items: center;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--success);
+  font-size: 2rem;
+}
