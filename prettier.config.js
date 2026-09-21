@@ -1,0 +1,5 @@
+export default {
+  printWidth: 92,
+  singleQuote: true,
+  trailingComma: 'all',
+};
