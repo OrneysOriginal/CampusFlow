@@ -4,3 +4,5 @@ dist/
 *.local
 .env*
 !.env.example
+
+/visual-results/

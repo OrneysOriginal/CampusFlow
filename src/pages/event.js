@@ -30,7 +30,7 @@ export function eventPage(id) {
               <h2 id="content-title">О мероприятии</h2>
               <p>${eventDetails.description}</p>
               <h3>Что будет на встрече</h3>
-              <ul>${eventDetails.program.map((item) => `<li>${item}</li>`).join('')}</ul>
+              <div class="event-detail-columns"><ul>${eventDetails.program.map((item) => `<li>${item}</li>`).join('')}</ul><aside class="interaction-summary"><h3>Интерактивные состояния</h3><p>Вкладки — active / hover</p><p>Запись — default / loading</p><p>Избранное — off / on</p><p>Места — available / full</p></aside></div>
             </div>
             <div id="panel-program" role="tabpanel" aria-labelledby="tab-program" hidden>
               <h2>Программа</h2>

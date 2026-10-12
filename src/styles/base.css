@@ -11,6 +11,14 @@
     sans-serif;
   font-synthesis: none;
 
+  /* Единая геометрия и шкала повторяющихся интервалов */
+  --container: 1200px;
+  --s1: 8px;
+  --s2: 16px;
+  --s3: 24px;
+  --s4: 32px;
+  --s5: 40px;
+  --radius: 12px;
   --primary: #3f61d7;
   --primary-dark: #2f4fbd;
   --muted: #68758e;
@@ -21,8 +29,16 @@
   --shadow: 0 12px 35px rgb(39 60 105 / 8%);
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 html {
@@ -84,13 +100,13 @@ p {
 }
 
 .shell {
-  width: min(100% - 2rem, 112rem);
+  width: min(calc(100% - 2rem), var(--container));
   margin-inline: auto;
 }
 
 .page {
   min-height: calc(100vh - 11rem);
-  padding-block: 2.5rem 4rem;
+  padding-block: var(--s5) calc(var(--s5) + var(--s3));
 }
 
 .sr-only {

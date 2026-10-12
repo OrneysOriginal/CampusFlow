@@ -1,0 +1,695 @@
+/* Контрольная геометрия по PDF CampusFlow, страница 1080 × 768. */
+
+:root {
+  --container: 1000px;
+  --shadow: none;
+}
+
+body {
+  background: #f5f7fc;
+}
+
+.site-header {
+  position: relative;
+}
+
+.header-inner {
+  min-height: 62px;
+  gap: 31px;
+}
+
+.brand {
+  gap: 10px;
+  font-size: 18px;
+}
+
+.brand-mark {
+  width: 30px;
+  height: 32px;
+  border-radius: 9px;
+  font-size: 12px;
+}
+
+.avatar {
+  width: 31px;
+  height: 31px;
+  font-size: 11px;
+}
+
+.main-nav {
+  gap: 25px;
+}
+
+.main-nav a {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.main-nav a[aria-current='page']::after {
+  bottom: -20px;
+  height: 2px;
+}
+
+.header-search input {
+  width: 160px;
+  padding: 10px 20px;
+  border-radius: 9px;
+  font-size: 12px;
+}
+
+.page {
+  padding-block: 20px 55px;
+}
+
+h1 {
+  font-size: clamp(23px, 2.45vw, 27px);
+  line-height: 1.18;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.page-heading {
+  margin-bottom: 14px;
+}
+
+.page-heading h1 {
+  margin-bottom: 5px;
+}
+
+.page-heading p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.button {
+  min-height: 40px;
+  border-radius: 9px;
+  padding: 9px 15px;
+  font-size: 12px;
+}
+
+.catalog-tools {
+  grid-template-columns: 488px 135px 83px;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.search-field input,
+.sort-field select,
+.filters-panel select,
+.registration-form input,
+.registration-form textarea {
+  border-radius: 9px;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.catalog-tools input,
+.catalog-tools select,
+.catalog-tools button {
+  min-height: 42px;
+}
+
+.category-row {
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.category-list {
+  gap: 7px;
+}
+
+.chip {
+  padding: 8px 13px;
+  font-size: 11px;
+}
+
+.catalog-layout {
+  grid-template-columns: minmax(0, 1fr) 164px;
+  gap: 22px;
+}
+
+.event-grid {
+  gap: 12px;
+}
+
+.event-card {
+  min-height: 194px;
+  border-radius: 14px;
+  padding: 13px;
+}
+
+.event-card__visual {
+  height: 74px;
+  min-height: 74px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 11px;
+  font-size: 27px;
+}
+
+.event-card .tag {
+  padding: 6px 11px;
+  font-size: 11px;
+}
+
+.event-card h2 {
+  margin: 5px 0 4px;
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.event-card p {
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.event-card strong {
+  margin-top: 0;
+  font-size: 11px;
+}
+
+.favorite-button {
+  top: 23px;
+  right: 22px;
+  width: 27px;
+  height: 27px;
+  font-size: 17px;
+}
+
+.filters-panel {
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.filters-panel h2 {
+  font-size: 15px;
+}
+
+.filters-panel label,
+.filters-panel fieldset {
+  gap: 9px;
+  margin-bottom: 22px;
+  font-size: 12px;
+}
+
+.filters-panel select {
+  padding: 9px;
+}
+
+.filters-panel legend {
+  margin-bottom: 10px;
+}
+
+.filters-panel .button {
+  width: 100%;
+}
+
+.pagination {
+  margin-top: 37px;
+}
+
+.pagination button {
+  min-width: 31px;
+  min-height: 31px;
+  font-size: 12px;
+}
+
+.back-link {
+  margin: 6px 0 20px;
+  font-size: 12px;
+}
+
+.event-layout {
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 18px;
+}
+
+.event-hero {
+  grid-template-columns: 128px minmax(0, 1fr);
+  gap: 22px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.event-icon {
+  min-height: 130px;
+  font-size: 27px;
+  border-radius: 14px;
+}
+
+.event-hero .tag {
+  padding: 7px 11px;
+  font-size: 11px;
+}
+
+.event-hero h1 {
+  font-size: 24px;
+  margin-bottom: 7px;
+  letter-spacing: -0.6px;
+}
+
+.event-hero p {
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.event-meta {
+  gap: 28px;
+  margin: 12px 0 0;
+  font-size: 12px;
+}
+
+.event-content {
+  padding: 0 20px 35px;
+  margin-top: 24px;
+  border: 0;
+  background: transparent;
+  padding-inline: 0;
+}
+
+.tabs {
+  margin: 0 -20px 16px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 0 20px;
+  background: white;
+  margin-inline: 0;
+}
+
+.tabs button {
+  padding: 17px 0;
+  font-size: 12px;
+}
+
+.event-content [role='tabpanel'] {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 20px;
+  background: white;
+  min-height: 310px;
+  margin-inline: 0;
+}
+
+.event-content h2 {
+  font-size: 18px;
+}
+
+.event-content p,
+.event-content li {
+  font-size: 12px;
+}
+
+.event-content li {
+  margin-block: 12px;
+}
+
+.booking-card {
+  border-radius: 15px;
+  padding: 18px 20px;
+}
+
+.booking-card h2 {
+  font-size: 18px;
+}
+
+.booking-card strong,
+.booking-card p {
+  font-size: 12px;
+}
+
+.booking-card .button {
+  margin-top: 9px;
+}
+
+.progress {
+  height: 8px;
+  margin-block: 15px 17px;
+}
+
+.registration-layout {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 0.98fr);
+  gap: 25px;
+}
+
+.registration-form,
+.form-help {
+  padding: 21px;
+  border-radius: 15px;
+}
+
+.registration-form > fieldset {
+  gap: 5px;
+}
+
+.registration-form > fieldset > legend {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.registration-form label,
+.choice-group legend {
+  font-size: 12px;
+}
+
+.registration-form input,
+.registration-form textarea {
+  margin-bottom: 5px;
+  padding: 11px 14px;
+}
+
+.registration-form textarea {
+  min-height: 73px;
+}
+
+.field-error {
+  min-height: 0;
+  margin: -2px 0 4px;
+  font-size: 11px;
+}
+
+.choice-group {
+  margin: 5px 0;
+  gap: 24px;
+}
+
+.choice-group legend {
+  margin-bottom: 10px;
+}
+
+.choice-group input,
+.agreement input {
+  width: 15px;
+  height: 15px;
+}
+
+.form-actions {
+  margin-top: 12px;
+}
+
+.form-help h2 {
+  font-size: 17px;
+}
+
+.form-state {
+  margin-top: 15px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.form-state:last-child {
+  border-bottom: 0;
+}
+
+.form-state h3 {
+  font-size: 13px;
+}
+
+.form-state label,
+.form-state p {
+  font-size: 11px;
+}
+
+.form-state input {
+  width: 100%;
+  border: 1px solid var(--danger);
+  border-radius: 8px;
+  padding: 12px;
+  color: #182238;
+  background: white;
+}
+
+.form-state .state-error {
+  margin: 7px 0;
+  color: var(--danger);
+}
+
+.form-state .state-loading {
+  width: 100%;
+  margin-top: 10px;
+  background: #899fe1;
+}
+
+.form-state .state-success {
+  border-radius: 12px;
+  padding: 14px;
+  background: #e8fbf2;
+}
+
+.form-state .state-success strong {
+  color: #168a56;
+}
+
+.form-state .state-success p {
+  margin: 8px 0;
+}
+
+@media (width <= 1100px) and (width > 800px) {
+  .event-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .header-search {
+    display: block;
+  }
+
+  .event-layout {
+    grid-template-columns: minmax(0, 1fr) 280px;
+  }
+}
+
+@media (width <= 1040px) {
+  .catalog-tools {
+    grid-template-columns: minmax(0, 488px) 135px 83px;
+  }
+}
+
+@media (width <= 800px) {
+  .catalog-tools {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .event-layout,
+  .registration-layout,
+  .catalog-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .event-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .event-content {
+    padding-inline: 0;
+  }
+
+  .tabs {
+    margin-inline: 0;
+  }
+}
+
+@media (width <= 520px) {
+  .catalog-tools,
+  .event-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .event-meta {
+    flex-wrap: wrap;
+  }
+
+  .tabs {
+    gap: 12px;
+  }
+}
+
+.event-detail-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: 22px;
+}
+
+.interaction-summary {
+  align-self: start;
+  border-radius: 12px;
+  padding: 16px;
+  background: #f5f7fc;
+}
+
+.interaction-summary h3 {
+  margin: 0 0 12px;
+  font-size: 13px;
+}
+
+.interaction-summary p {
+  margin: 7px 0;
+  font-size: 11px;
+}
+
+@media (width <= 520px) {
+  .event-detail-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.booking-card hr {
+  margin-block: 14px;
+}
+
+.booking-card p {
+  margin-bottom: 0;
+}
+
+/* Коррекция после автоматического замера 1080 × 768 от 11.10.2026.
+   Не задаём фиксированную высоту карточкам с пользовательским текстом:
+   компактность достигается внутренними интервалами. */
+@media (width >= 801px) {
+  .category-row {
+    align-items: center;
+  }
+
+  .chip {
+    padding-block: 5px;
+  }
+
+  .event-card {
+    min-height: 184px;
+    padding-block: 10px;
+  }
+
+  .event-card__visual {
+    height: 65px;
+    min-height: 65px;
+    margin-bottom: 9px;
+  }
+
+  .filters-panel {
+    padding-block: 12px;
+  }
+
+  .filters-panel label,
+  .filters-panel fieldset {
+    margin-bottom: 18px;
+  }
+
+  .event-hero {
+    grid-template-columns: 122px minmax(0, 1fr);
+    gap: 18px;
+    padding-block: 18px;
+  }
+
+  .event-icon {
+    min-height: 124px;
+  }
+
+  .event-hero h1 {
+    max-width: 478px;
+  }
+
+  .event-content {
+    margin-top: 21px;
+  }
+
+  .booking-card {
+    padding-block: 13px;
+  }
+
+  .booking-card hr {
+    margin-block: 10px;
+  }
+
+  .booking-card .progress {
+    margin-block: 10px 12px;
+  }
+
+  .registration-form > fieldset {
+    gap: 2px;
+  }
+
+  .registration-form > fieldset > legend {
+    margin-bottom: 8px;
+  }
+
+  .registration-form input,
+  .registration-form textarea {
+    padding-block: 8px;
+    margin-bottom: 2px;
+  }
+
+  .registration-form textarea {
+    min-height: 58px;
+  }
+
+  .registration-form .choice-group {
+    margin-block: 2px;
+  }
+
+  .registration-form .agreement {
+    margin-block: 6px;
+  }
+
+  .registration-form .form-actions {
+    margin-top: 8px;
+  }
+
+  .registration-layout {
+    margin-top: 7px;
+  }
+
+  .registration-layout .form-help {
+    padding-bottom: 15px;
+  }
+}
+
+/* Финальная геометрическая коррекция по visual-results/report.json (1080 × 768).
+   Эталонные координаты и допуск в тестах не изменялись. */
+@media (width >= 801px) {
+  /* Каталог: категория была на 6 px выше необходимой высоты. */
+  .chip {
+    padding-block: 2px;
+  }
+
+  /* У общей кнопки min-height: 40px; она растягивала строку категорий. */
+  .category-row .filters-open {
+    min-height: 34px;
+    padding-block: 6px;
+  }
+
+  /* Мероприятие: освобождаем вертикальное пространство за счёт
+     интервалов списка, а не фиксированной высоты текстового блока. */
+  .event-content [role='tabpanel'] {
+    padding-block: 15px;
+  }
+
+  .event-content li {
+    margin-block: 9px;
+  }
+
+  /* Регистрация: заголовок и обе колонки были подняты на 6–7 px. */
+  .registration-page {
+    padding-top: 26px;
+  }
+
+  .registration-layout {
+    margin-top: 8px;
+  }
+}
+
+/* Коррекция вертикального положения каталога по фактическому замеру.
+   После уменьшения высоты строки категорий до 34px сохраняем позицию сетки (y=255px). */
+@media (width >= 801px) {
+  .category-row {
+    margin-bottom: 16px;
+  }
+}

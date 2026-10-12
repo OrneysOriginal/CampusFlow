@@ -1,0 +1,469 @@
+{
+  "1440_normal": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 120,
+        "y": 0,
+        "width": 1200,
+        "height": 104
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 105
+      },
+      ".brand": {
+        "x": 120,
+        "y": 27.2,
+        "width": 221.4,
+        "height": 49.6
+      },
+      ".page-heading h1": {
+        "x": 120,
+        "y": 145,
+        "width": 1200,
+        "height": 52.8
+      },
+      ".catalog-tools": {
+        "x": 120,
+        "y": 262.6,
+        "width": 1200,
+        "height": 54.4
+      },
+      ".category-row": {
+        "x": 120,
+        "y": 339.3,
+        "width": 1200,
+        "height": 51.2
+      },
+      ".event-grid": {
+        "x": 120,
+        "y": 422.5,
+        "width": 896,
+        "height": 658.8
+      },
+      ".event-card": {
+        "x": 120,
+        "y": 422.5,
+        "width": 288,
+        "height": 321.4
+      },
+      ".filters-panel": {
+        "x": 1048,
+        "y": 422.5,
+        "width": 272,
+        "height": 476.4
+      },
+      ".catalog-tools .button": {
+        "x": 1191.4,
+        "y": 262.6,
+        "width": 128.6,
+        "height": 54.4
+      }
+    }
+  },
+  "search_empty": true,
+  "search_reset": 6,
+  "event_open": true,
+  "registration_open": true,
+  "registration_validation": 4,
+  "1152_normal": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 16,
+        "y": 0,
+        "width": 1120,
+        "height": 104
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1152,
+        "height": 105
+      },
+      ".brand": {
+        "x": 16,
+        "y": 27.2,
+        "width": 221.4,
+        "height": 49.6
+      },
+      ".page-heading h1": {
+        "x": 16,
+        "y": 145,
+        "width": 1120,
+        "height": 50.7
+      },
+      ".catalog-tools": {
+        "x": 16,
+        "y": 260.5,
+        "width": 1120,
+        "height": 54.4
+      },
+      ".category-row": {
+        "x": 16,
+        "y": 337.2,
+        "width": 1120,
+        "height": 51.2
+      },
+      ".event-grid": {
+        "x": 16,
+        "y": 420.4,
+        "width": 816,
+        "height": 680.8
+      },
+      ".event-card": {
+        "x": 16,
+        "y": 420.4,
+        "width": 261.3,
+        "height": 343.4
+      },
+      ".filters-panel": {
+        "x": 864,
+        "y": 420.4,
+        "width": 272,
+        "height": 476.4
+      },
+      ".catalog-tools .button": {
+        "x": 1007.4,
+        "y": 260.5,
+        "width": 128.6,
+        "height": 54.4
+      }
+    }
+  },
+  "375_normal": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 10,
+        "y": 0,
+        "width": 355,
+        "height": 76.8
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 77.8
+      },
+      ".brand": {
+        "x": 10,
+        "y": 18.4,
+        "width": 170.5,
+        "height": 40
+      },
+      ".page-heading h1": {
+        "x": 10,
+        "y": 101.8,
+        "width": 355,
+        "height": 70.4
+      },
+      ".catalog-tools": {
+        "x": 10,
+        "y": 262.5,
+        "width": 355,
+        "height": 190.8
+      },
+      ".category-row": {
+        "x": 10,
+        "y": 475.7,
+        "width": 355,
+        "height": 224.7
+      },
+      ".event-grid": {
+        "x": 10,
+        "y": 732.4,
+        "width": 355,
+        "height": 1867.3
+      },
+      ".event-card": {
+        "x": 10,
+        "y": 732.4,
+        "width": 355,
+        "height": 297.9
+      },
+      ".filters-panel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".catalog-tools .button": {
+        "x": 10,
+        "y": 401.3,
+        "width": 355,
+        "height": 52
+      }
+    }
+  },
+  "1440_title": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 120,
+        "y": 0,
+        "width": 1200,
+        "height": 104
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 105
+      },
+      ".brand": {
+        "x": 120,
+        "y": 27.2,
+        "width": 221.4,
+        "height": 49.6
+      },
+      ".page-heading h1": {
+        "x": 120,
+        "y": 145,
+        "width": 1200,
+        "height": 52.8
+      },
+      ".catalog-tools": {
+        "x": 120,
+        "y": 262.6,
+        "width": 1200,
+        "height": 54.4
+      },
+      ".category-row": {
+        "x": 120,
+        "y": 339.3,
+        "width": 1200,
+        "height": 51.2
+      },
+      ".event-grid": {
+        "x": 120,
+        "y": 422.5,
+        "width": 896,
+        "height": 812.8
+      },
+      ".event-card": {
+        "x": 120,
+        "y": 422.5,
+        "width": 288,
+        "height": 475.4
+      },
+      ".filters-panel": {
+        "x": 1048,
+        "y": 422.5,
+        "width": 272,
+        "height": 476.4
+      },
+      ".catalog-tools .button": {
+        "x": 1191.4,
+        "y": 262.6,
+        "width": 128.6,
+        "height": 54.4
+      }
+    }
+  },
+  "1440_organization": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 120,
+        "y": 0,
+        "width": 1200,
+        "height": 104
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 105
+      },
+      ".brand": {
+        "x": 120,
+        "y": 27.2,
+        "width": 221.4,
+        "height": 49.6
+      },
+      ".page-heading h1": {
+        "x": 120,
+        "y": 145,
+        "width": 1200,
+        "height": 52.8
+      },
+      ".catalog-tools": {
+        "x": 120,
+        "y": 262.6,
+        "width": 1200,
+        "height": 54.4
+      },
+      ".category-row": {
+        "x": 120,
+        "y": 339.3,
+        "width": 1200,
+        "height": 51.2
+      },
+      ".event-grid": {
+        "x": 120,
+        "y": 422.5,
+        "width": 896,
+        "height": 800.1
+      },
+      ".event-card": {
+        "x": 120,
+        "y": 422.5,
+        "width": 288,
+        "height": 462.7
+      },
+      ".filters-panel": {
+        "x": 1048,
+        "y": 422.5,
+        "width": 272,
+        "height": 476.4
+      },
+      ".catalog-tools .button": {
+        "x": 1191.4,
+        "y": 262.6,
+        "width": 128.6,
+        "height": 54.4
+      }
+    }
+  },
+  "1440_url": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 120,
+        "y": 0,
+        "width": 1200,
+        "height": 104
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 105
+      },
+      ".brand": {
+        "x": 120,
+        "y": 27.2,
+        "width": 221.4,
+        "height": 49.6
+      },
+      ".page-heading h1": {
+        "x": 120,
+        "y": 145,
+        "width": 1200,
+        "height": 52.8
+      },
+      ".catalog-tools": {
+        "x": 120,
+        "y": 262.6,
+        "width": 1200,
+        "height": 54.4
+      },
+      ".category-row": {
+        "x": 120,
+        "y": 339.3,
+        "width": 1200,
+        "height": 51.2
+      },
+      ".event-grid": {
+        "x": 120,
+        "y": 422.5,
+        "width": 896,
+        "height": 941.4
+      },
+      ".event-card": {
+        "x": 120,
+        "y": 422.5,
+        "width": 288,
+        "height": 604
+      },
+      ".filters-panel": {
+        "x": 1048,
+        "y": 422.5,
+        "width": 272,
+        "height": 476.4
+      },
+      ".catalog-tools .button": {
+        "x": 1191.4,
+        "y": 262.6,
+        "width": 128.6,
+        "height": 54.4
+      }
+    }
+  },
+  "1440_empty": {
+    "errors": [],
+    "overflow": 0,
+    "selectors": {
+      ".shell": {
+        "x": 120,
+        "y": 0,
+        "width": 1200,
+        "height": 104
+      },
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 105
+      },
+      ".brand": {
+        "x": 120,
+        "y": 27.2,
+        "width": 221.4,
+        "height": 49.6
+      },
+      ".page-heading h1": {
+        "x": 120,
+        "y": 145,
+        "width": 1200,
+        "height": 52.8
+      },
+      ".catalog-tools": {
+        "x": 120,
+        "y": 262.6,
+        "width": 1200,
+        "height": 54.4
+      },
+      ".category-row": {
+        "x": 120,
+        "y": 339.3,
+        "width": 1200,
+        "height": 51.2
+      },
+      ".event-grid": {
+        "x": 120,
+        "y": 422.5,
+        "width": 896,
+        "height": 635.3
+      },
+      ".event-card": {
+        "x": 120,
+        "y": 422.5,
+        "width": 288,
+        "height": 297.9
+      },
+      ".filters-panel": {
+        "x": 1048,
+        "y": 422.5,
+        "width": 272,
+        "height": 476.4
+      },
+      ".catalog-tools .button": {
+        "x": 1191.4,
+        "y": 262.6,
+        "width": 128.6,
+        "height": 54.4
+      }
+    }
+  }
+}

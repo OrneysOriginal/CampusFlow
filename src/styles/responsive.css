@@ -127,7 +127,7 @@
 
 @media (width <= 520px) {
   .shell {
-    width: min(100% - 1.25rem, 112rem);
+    width: min(calc(100% - 1.25rem), var(--container));
   }
 
   .page {

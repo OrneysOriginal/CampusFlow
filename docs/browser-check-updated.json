@@ -1,0 +1,632 @@
+{
+  "1080_catalog": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 63
+      },
+      ".shell": {
+        "x": 40,
+        "y": 0,
+        "width": 1000,
+        "height": 62
+      },
+      ".brand": {
+        "x": 40,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": {
+        "x": 40,
+        "y": 83,
+        "width": 1000,
+        "height": 31.2
+      },
+      ".catalog-tools": {
+        "x": 40,
+        "y": 152.7,
+        "width": 1000,
+        "height": 42
+      },
+      ".category-row": {
+        "x": 40,
+        "y": 204.7,
+        "width": 1000,
+        "height": 40
+      },
+      ".event-grid": {
+        "x": 40,
+        "y": 254.7,
+        "width": 814,
+        "height": 405.2
+      },
+      ".event-card": {
+        "x": 40,
+        "y": 254.7,
+        "width": 263.3,
+        "height": 196.6
+      },
+      ".filters-panel": {
+        "x": 876,
+        "y": 254.7,
+        "width": 164,
+        "height": 395.4
+      },
+      ".catalog-tools .button": {
+        "x": 691,
+        "y": 152.7,
+        "width": 83,
+        "height": 42
+      },
+      ".event-hero": null,
+      ".event-icon": null,
+      ".event-hero h1": null,
+      ".booking-card": null,
+      ".tabs": null,
+      ".event-content [role=\"tabpanel\"]": null,
+      ".registration-layout": null,
+      ".registration-form": null,
+      ".form-help": null,
+      ".submit-button": null
+    }
+  },
+  "1080_event": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 63
+      },
+      ".shell": {
+        "x": 40,
+        "y": 0,
+        "width": 1000,
+        "height": 62
+      },
+      ".brand": {
+        "x": 40,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": null,
+      ".catalog-tools": null,
+      ".category-row": null,
+      ".event-grid": null,
+      ".event-card": null,
+      ".filters-panel": null,
+      ".catalog-tools .button": null,
+      ".event-hero": {
+        "x": 40,
+        "y": 124,
+        "width": 702,
+        "height": 172
+      },
+      ".event-icon": {
+        "x": 61,
+        "y": 145,
+        "width": 128,
+        "height": 130
+      },
+      ".event-hero h1": {
+        "x": 211,
+        "y": 173,
+        "width": 510,
+        "height": 28.3
+      },
+      ".booking-card": {
+        "x": 760,
+        "y": 124,
+        "width": 280,
+        "height": 296.9
+      },
+      ".tabs": {
+        "x": 40,
+        "y": 320,
+        "width": 702,
+        "height": 54
+      },
+      ".event-content [role=\"tabpanel\"]": {
+        "x": 40,
+        "y": 390,
+        "width": 702,
+        "height": 321.7
+      },
+      ".registration-layout": null,
+      ".registration-form": null,
+      ".form-help": null,
+      ".submit-button": null
+    }
+  },
+  "1080_registration": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 63
+      },
+      ".shell": {
+        "x": 40,
+        "y": 0,
+        "width": 1000,
+        "height": 62
+      },
+      ".brand": {
+        "x": 40,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": {
+        "x": 40,
+        "y": 83,
+        "width": 1000,
+        "height": 31.2
+      },
+      ".catalog-tools": null,
+      ".category-row": null,
+      ".event-grid": null,
+      ".event-card": null,
+      ".filters-panel": null,
+      ".catalog-tools .button": null,
+      ".event-hero": null,
+      ".event-icon": null,
+      ".event-hero h1": null,
+      ".booking-card": null,
+      ".tabs": null,
+      ".event-content [role=\"tabpanel\"]": null,
+      ".registration-layout": {
+        "x": 40,
+        "y": 152.7,
+        "width": 1000,
+        "height": 582.6
+      },
+      ".registration-form": {
+        "x": 40,
+        "y": 152.7,
+        "width": 654.4,
+        "height": 582.6
+      },
+      ".form-help": {
+        "x": 719.4,
+        "y": 152.7,
+        "width": 320.6,
+        "height": 526.5
+      },
+      ".submit-button": {
+        "x": 62,
+        "y": 673.3,
+        "width": 141.4,
+        "height": 40
+      }
+    }
+  },
+  "864_catalog": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 864,
+        "height": 63
+      },
+      ".shell": {
+        "x": 16,
+        "y": 0,
+        "width": 832,
+        "height": 62
+      },
+      ".brand": {
+        "x": 16,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": {
+        "x": 16,
+        "y": 83,
+        "width": 832,
+        "height": 27.1
+      },
+      ".catalog-tools": {
+        "x": 16,
+        "y": 148.6,
+        "width": 832,
+        "height": 42
+      },
+      ".category-row": {
+        "x": 16,
+        "y": 200.6,
+        "width": 832,
+        "height": 40
+      },
+      ".event-grid": {
+        "x": 16,
+        "y": 250.6,
+        "width": 646,
+        "height": 442.7
+      },
+      ".event-card": {
+        "x": 16,
+        "y": 250.6,
+        "width": 207.3,
+        "height": 215.3
+      },
+      ".filters-panel": {
+        "x": 684,
+        "y": 250.6,
+        "width": 164,
+        "height": 395.4
+      },
+      ".catalog-tools .button": {
+        "x": 667,
+        "y": 148.6,
+        "width": 83,
+        "height": 42
+      },
+      ".event-hero": null,
+      ".event-icon": null,
+      ".event-hero h1": null,
+      ".booking-card": null,
+      ".tabs": null,
+      ".event-content [role=\"tabpanel\"]": null,
+      ".registration-layout": null,
+      ".registration-form": null,
+      ".form-help": null,
+      ".submit-button": null
+    }
+  },
+  "864_event": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 864,
+        "height": 63
+      },
+      ".shell": {
+        "x": 16,
+        "y": 0,
+        "width": 832,
+        "height": 62
+      },
+      ".brand": {
+        "x": 16,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": null,
+      ".catalog-tools": null,
+      ".category-row": null,
+      ".event-grid": null,
+      ".event-card": null,
+      ".filters-panel": null,
+      ".catalog-tools .button": null,
+      ".event-hero": {
+        "x": 16,
+        "y": 124,
+        "width": 534,
+        "height": 214.6
+      },
+      ".event-icon": {
+        "x": 37,
+        "y": 145,
+        "width": 128,
+        "height": 172.6
+      },
+      ".event-hero h1": {
+        "x": 187,
+        "y": 173,
+        "width": 342,
+        "height": 56.6
+      },
+      ".booking-card": {
+        "x": 568,
+        "y": 124,
+        "width": 280,
+        "height": 296.9
+      },
+      ".tabs": {
+        "x": 16,
+        "y": 362.6,
+        "width": 534,
+        "height": 54
+      },
+      ".event-content [role=\"tabpanel\"]": {
+        "x": 16,
+        "y": 432.6,
+        "width": 534,
+        "height": 367.7
+      },
+      ".registration-layout": null,
+      ".registration-form": null,
+      ".form-help": null,
+      ".submit-button": null
+    }
+  },
+  "864_registration": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 864,
+        "height": 63
+      },
+      ".shell": {
+        "x": 16,
+        "y": 0,
+        "width": 832,
+        "height": 62
+      },
+      ".brand": {
+        "x": 16,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": {
+        "x": 16,
+        "y": 83,
+        "width": 832,
+        "height": 27.1
+      },
+      ".catalog-tools": null,
+      ".category-row": null,
+      ".event-grid": null,
+      ".event-card": null,
+      ".filters-panel": null,
+      ".catalog-tools .button": null,
+      ".event-hero": null,
+      ".event-icon": null,
+      ".event-hero h1": null,
+      ".booking-card": null,
+      ".tabs": null,
+      ".event-content [role=\"tabpanel\"]": null,
+      ".registration-layout": {
+        "x": 16,
+        "y": 148.6,
+        "width": 832,
+        "height": 582.6
+      },
+      ".registration-form": {
+        "x": 16,
+        "y": 148.6,
+        "width": 541.6,
+        "height": 582.6
+      },
+      ".form-help": {
+        "x": 582.6,
+        "y": 148.6,
+        "width": 265.4,
+        "height": 563
+      },
+      ".submit-button": {
+        "x": 38,
+        "y": 669.2,
+        "width": 141.4,
+        "height": 40
+      }
+    }
+  },
+  "375_catalog": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 63
+      },
+      ".shell": {
+        "x": 10,
+        "y": 0,
+        "width": 355,
+        "height": 62
+      },
+      ".brand": {
+        "x": 10,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": {
+        "x": 10,
+        "y": 83,
+        "width": 355,
+        "height": 27.1
+      },
+      ".catalog-tools": {
+        "x": 10,
+        "y": 168.1,
+        "width": 355,
+        "height": 154
+      },
+      ".category-row": {
+        "x": 10,
+        "y": 332.1,
+        "width": 355,
+        "height": 165
+      },
+      ".event-grid": {
+        "x": 10,
+        "y": 507.1,
+        "width": 355,
+        "height": 1239.6
+      },
+      ".event-card": {
+        "x": 10,
+        "y": 507.1,
+        "width": 355,
+        "height": 196.6
+      },
+      ".filters-panel": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      ".catalog-tools .button": {
+        "x": 10,
+        "y": 280.1,
+        "width": 355,
+        "height": 42
+      },
+      ".event-hero": null,
+      ".event-icon": null,
+      ".event-hero h1": null,
+      ".booking-card": null,
+      ".tabs": null,
+      ".event-content [role=\"tabpanel\"]": null,
+      ".registration-layout": null,
+      ".registration-form": null,
+      ".form-help": null,
+      ".submit-button": null
+    }
+  },
+  "375_event": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 63
+      },
+      ".shell": {
+        "x": 10,
+        "y": 0,
+        "width": 355,
+        "height": 62
+      },
+      ".brand": {
+        "x": 10,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": null,
+      ".catalog-tools": null,
+      ".category-row": null,
+      ".event-grid": null,
+      ".event-card": null,
+      ".filters-panel": null,
+      ".catalog-tools .button": null,
+      ".event-hero": {
+        "x": 10,
+        "y": 438.9,
+        "width": 355,
+        "height": 427.6
+      },
+      ".event-icon": {
+        "x": 31,
+        "y": 459.9,
+        "width": 313,
+        "height": 130
+      },
+      ".event-hero h1": {
+        "x": 31,
+        "y": 639.9,
+        "width": 313,
+        "height": 56.6
+      },
+      ".booking-card": {
+        "x": 10,
+        "y": 124,
+        "width": 355,
+        "height": 296.9
+      },
+      ".tabs": {
+        "x": 10,
+        "y": 890.6,
+        "width": 355,
+        "height": 182
+      },
+      ".event-content [role=\"tabpanel\"]": {
+        "x": 10,
+        "y": 1088.6,
+        "width": 355,
+        "height": 546.7
+      },
+      ".registration-layout": null,
+      ".registration-form": null,
+      ".form-help": null,
+      ".submit-button": null
+    }
+  },
+  "375_registration": {
+    "overflow": 0,
+    "rectangles": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 63
+      },
+      ".shell": {
+        "x": 10,
+        "y": 0,
+        "width": 355,
+        "height": 62
+      },
+      ".brand": {
+        "x": 10,
+        "y": 15,
+        "width": 156,
+        "height": 32
+      },
+      ".page-heading h1": {
+        "x": 10,
+        "y": 83,
+        "width": 355,
+        "height": 27.1
+      },
+      ".catalog-tools": null,
+      ".category-row": null,
+      ".event-grid": null,
+      ".event-card": null,
+      ".filters-panel": null,
+      ".catalog-tools .button": null,
+      ".event-hero": null,
+      ".event-icon": null,
+      ".event-hero h1": null,
+      ".booking-card": null,
+      ".tabs": null,
+      ".event-content [role=\"tabpanel\"]": null,
+      ".registration-layout": {
+        "x": 10,
+        "y": 148.6,
+        "width": 355,
+        "height": 1226.1
+      },
+      ".registration-form": {
+        "x": 10,
+        "y": 148.6,
+        "width": 355,
+        "height": 674.6
+      },
+      ".form-help": {
+        "x": 10,
+        "y": 848.2,
+        "width": 355,
+        "height": 526.5
+      },
+      ".submit-button": {
+        "x": 32,
+        "y": 713.2,
+        "width": 311,
+        "height": 40
+      }
+    }
+  }
+}

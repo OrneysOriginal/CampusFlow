@@ -6,6 +6,7 @@ import './styles/base.css';
 import './styles/components.css';
 import './styles/pages.css';
 import './styles/responsive.css';
+import './styles/mock-alignment.css';
 
 const app = document.querySelector('#app');
 

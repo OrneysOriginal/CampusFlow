@@ -1,0 +1,247 @@
+{
+  "notice": "Координаты PDF оценочные; попиксельный процент не равен геометрическому допуску.",
+  "screens": [
+    {
+      "screen": "catalog",
+      "route": "#/events",
+      "viewport": "1080 × 768",
+      "overflow": {
+        "documentWidth": 1080,
+        "viewportWidth": 1080,
+        "horizontalOverflow": false
+      },
+      "geometry": [
+        {
+          "selector": ".site-header",
+          "expected": [0, 0, 1080, 62],
+          "actual": [0, 0, 1080, 63],
+          "delta": [0, 0, 0, 1],
+          "maxDelta": 1,
+          "pass": true
+        },
+        {
+          "selector": ".brand",
+          "expected": [40, 16, 156, 31],
+          "actual": [40, 15, 152, 32],
+          "delta": [0, 1, 4, 1],
+          "maxDelta": 4,
+          "pass": true
+        },
+        {
+          "selector": ".page-heading h1",
+          "expected": [40, 84, 1000, 32],
+          "actual": [40, 83, 1000, 31.2],
+          "delta": [0, 1, 0, 0.8],
+          "maxDelta": 1,
+          "pass": true
+        },
+        {
+          "selector": ".catalog-tools",
+          "expected": [40, 153, 1000, 40],
+          "actual": [40, 152.7, 1000, 42],
+          "delta": [0, 0.3, 0, 2],
+          "maxDelta": 2,
+          "pass": true
+        },
+        {
+          "selector": ".category-row",
+          "expected": [40, 206, 1000, 34],
+          "actual": [40, 204.7, 1000, 40],
+          "delta": [0, 1.3, 0, 6],
+          "maxDelta": 6,
+          "pass": false
+        },
+        {
+          "selector": ".event-grid",
+          "expected": [40, 255, 814, 381],
+          "actual": [40, 254.7, 814, 409.2],
+          "delta": [0, 0.3, 0, 28.2],
+          "maxDelta": 28.2,
+          "pass": false
+        },
+        {
+          "selector": ".event-card",
+          "expected": [40, 255, 263, 185],
+          "actual": [40, 254.7, 263.3, 198.6],
+          "delta": [0, 0.3, 0.3, 13.6],
+          "maxDelta": 13.6,
+          "pass": false
+        },
+        {
+          "selector": ".filters-panel",
+          "expected": [876, 255, 164, 381],
+          "actual": [876, 254.7, 164, 400.4],
+          "delta": [0, 0.3, 0, 19.4],
+          "maxDelta": 19.4,
+          "pass": false
+        }
+      ],
+      "differencePercent": 6.25,
+      "meanChannelDifference": 9.61,
+      "elementsWithin5px": 4,
+      "totalElements": 8,
+      "geometryPass": false,
+      "files": {
+        "reference": "tests/visual/reference/catalog.png",
+        "actual": "catalog-actual.png",
+        "diff": "catalog-diff.png"
+      }
+    },
+    {
+      "screen": "event",
+      "route": "#/events/semantic-html",
+      "viewport": "1080 × 768",
+      "overflow": {
+        "documentWidth": 1080,
+        "viewportWidth": 1080,
+        "horizontalOverflow": false
+      },
+      "geometry": [
+        {
+          "selector": ".site-header",
+          "expected": [0, 0, 1080, 62],
+          "actual": [0, 0, 1080, 63],
+          "delta": [0, 0, 0, 1],
+          "maxDelta": 1,
+          "pass": true
+        },
+        {
+          "selector": ".brand",
+          "expected": [40, 16, 156, 31],
+          "actual": [40, 15, 152, 32],
+          "delta": [0, 1, 4, 1],
+          "maxDelta": 4,
+          "pass": true
+        },
+        {
+          "selector": ".event-hero",
+          "expected": [40, 123, 702, 165],
+          "actual": [40, 125, 702, 172],
+          "delta": [0, 2, 0, 7],
+          "maxDelta": 7,
+          "pass": false
+        },
+        {
+          "selector": ".event-icon",
+          "expected": [60, 143, 122, 124],
+          "actual": [61, 146, 128, 130],
+          "delta": [1, 3, 6, 6],
+          "maxDelta": 6,
+          "pass": false
+        },
+        {
+          "selector": ".event-hero h1",
+          "expected": [200, 171, 478, 29],
+          "actual": [211, 175, 510, 28.3],
+          "delta": [11, 4, 32, 0.7],
+          "maxDelta": 32,
+          "pass": false
+        },
+        {
+          "selector": ".booking-card",
+          "expected": [760, 123, 280, 270],
+          "actual": [760, 125, 280, 300.9],
+          "delta": [0, 2, 0, 30.9],
+          "maxDelta": 30.9,
+          "pass": false
+        },
+        {
+          "selector": ".tabs",
+          "expected": [40, 312, 702, 55],
+          "actual": [40, 321, 702, 55],
+          "delta": [0, 9, 0, 0],
+          "maxDelta": 9,
+          "pass": false
+        },
+        {
+          "selector": ".event-content [role=\"tabpanel\"]",
+          "expected": [40, 382, 702, 315],
+          "actual": [40, 392, 702, 328.7],
+          "delta": [0, 10, 0, 13.7],
+          "maxDelta": 13.7,
+          "pass": false
+        }
+      ],
+      "differencePercent": 7.86,
+      "meanChannelDifference": 11.15,
+      "elementsWithin5px": 2,
+      "totalElements": 8,
+      "geometryPass": false,
+      "files": {
+        "reference": "tests/visual/reference/event.png",
+        "actual": "event-actual.png",
+        "diff": "event-diff.png"
+      }
+    },
+    {
+      "screen": "registration",
+      "route": "#/register/semantic-html",
+      "viewport": "1080 × 768",
+      "overflow": {
+        "documentWidth": 1080,
+        "viewportWidth": 1080,
+        "horizontalOverflow": false
+      },
+      "geometry": [
+        {
+          "selector": ".site-header",
+          "expected": [0, 0, 1080, 62],
+          "actual": [0, 0, 1080, 63],
+          "delta": [0, 0, 0, 1],
+          "maxDelta": 1,
+          "pass": true
+        },
+        {
+          "selector": ".brand",
+          "expected": [40, 16, 156, 31],
+          "actual": [40, 15, 152, 32],
+          "delta": [0, 1, 4, 1],
+          "maxDelta": 4,
+          "pass": true
+        },
+        {
+          "selector": ".page-heading h1",
+          "expected": [40, 89, 1000, 30],
+          "actual": [40, 83, 1000, 31.2],
+          "delta": [0, 6, 0, 1.2],
+          "maxDelta": 6,
+          "pass": false
+        },
+        {
+          "selector": ".registration-layout",
+          "expected": [40, 160, 1000, 529],
+          "actual": [40, 152.7, 1000, 595.6],
+          "delta": [0, 7.3, 0, 66.6],
+          "maxDelta": 66.6,
+          "pass": false
+        },
+        {
+          "selector": ".registration-form",
+          "expected": [40, 160, 653, 529],
+          "actual": [40, 152.7, 654.4, 595.6],
+          "delta": [0, 7.3, 1.4, 66.6],
+          "maxDelta": 66.6,
+          "pass": false
+        },
+        {
+          "selector": ".form-help",
+          "expected": [719, 160, 321, 529],
+          "actual": [719.4, 152.7, 320.6, 535.5],
+          "delta": [0.4, 7.3, 0.4, 6.5],
+          "maxDelta": 7.3,
+          "pass": false
+        }
+      ],
+      "differencePercent": 7.64,
+      "meanChannelDifference": 8.5,
+      "elementsWithin5px": 2,
+      "totalElements": 6,
+      "geometryPass": false,
+      "files": {
+        "reference": "tests/visual/reference/registration.png",
+        "actual": "registration-actual.png",
+        "diff": "registration-diff.png"
+      }
+    }
+  ]
+}

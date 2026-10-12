@@ -5,7 +5,6 @@ export function registrationPage(id) {
   return `
     <main id="main-content" class="page shell registration-page">
       <header class="page-heading">
-        <a class="back-link" href="#/events/${event.id}">← ${event.shortTitle}</a>
         <h1>Регистрация на мероприятие</h1>
         <p>Заполните данные. Поля со звёздочкой обязательны.</p>
       </header>
@@ -46,12 +45,10 @@ export function registrationPage(id) {
           </div>
         </form>
         <aside class="form-help" aria-labelledby="form-help-title">
-          <h2 id="form-help-title">Как проходит отправка</h2>
-          <ol>
-            <li>Проверьте обязательные поля.</li>
-            <li>Во время отправки кнопка будет заблокирована.</li>
-            <li>После успеха появится подтверждение.</li>
-          </ol>
+          <h2 id="form-help-title">Состояния формы</h2>
+          <div class="form-state"><h3>1. Ошибка обязательного поля</h3><label for="demo-email">E-mail *</label><input id="demo-email" value="student@" readonly aria-describedby="demo-error" /><p class="state-error" id="demo-error">Введите корректный e-mail</p></div>
+          <div class="form-state"><h3>2. Отправка</h3><button type="button" class="button state-loading" disabled>Отправка…</button><p>Кнопка недоступна до завершения.</p></div>
+          <div class="form-state"><h3>3. Успех</h3><div class="state-success"><strong>✓ Заявка принята</strong><p>Подтверждение отправлено на почту.</p><a href="#/my-events">Перейти в «Мои события» →</a></div></div>
         </aside>
       </div>
       <section class="success-panel" hidden tabindex="-1" aria-labelledby="success-title">

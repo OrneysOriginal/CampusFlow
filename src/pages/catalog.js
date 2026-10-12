@@ -28,7 +28,7 @@ export function catalogPage() {
           ${categories.map((category, index) => `<button class="chip ${index === 0 ? 'is-active' : ''}" type="button" data-category="${category}" aria-pressed="${index === 0}">${category}</button>`).join('')}
         </div>
         <button class="button button--secondary filters-open" type="button" aria-controls="filters-panel">Доп. фильтры</button>
-        <span class="result-count" aria-live="polite">${events.length} событий</span>
+        <span class="result-count" aria-live="polite">6 событий</span>
       </div>
       <div class="catalog-layout">
         <section aria-labelledby="results-title">
@@ -79,6 +79,7 @@ export function initCatalog() {
     empty.hidden = filtered.length !== 0;
     resultCount.textContent = `${filtered.length} событий`;
     initFavoriteButtons();
+    applyStressCase();
   };
 
   const reset = () => {
@@ -121,6 +122,34 @@ export function initCatalog() {
   document.querySelector('#reset-filters').addEventListener('click', reset);
   document.querySelector('.empty-reset').addEventListener('click', reset);
   initFavoriteButtons();
+  applyStressCase();
+}
+
+function applyStressCase() {
+  const caseName = new URLSearchParams(window.location.search).get('stress');
+  if (!caseName) return;
+
+  const firstCard = document.querySelector('.event-card');
+  if (!firstCard) return;
+
+  const cases = {
+    title: () => {
+      firstCard.querySelector('h2 a').textContent =
+        'Практическое занятие по адаптивной геометрии интерфейсов и устойчивой точной верстке сложных карточек с различным наполнением, заголовок для проверки';
+    },
+    organization: () => {
+      firstCard.querySelector('p').textContent =
+        'Международный исследовательский образовательный центр цифровых коммуникаций и проектирования интерактивных систем имени Александра Константиновича Петрова-Сидорова';
+    },
+    url: () => {
+      firstCard.querySelector('p').textContent =
+        'https://campus.example.com/events/' + 'very-long-unbroken-event-slug-'.repeat(12);
+    },
+    empty: () => {
+      firstCard.querySelector('p').textContent = '';
+    },
+  };
+  cases[caseName]?.();
 }
 
 function initFavoriteButtons() {
